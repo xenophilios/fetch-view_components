@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "thdeiFbCnERG1agC9taZ2PDs+DL1ynTLK5GczkuUIO0=",
+  "Source": "AjaxExp",
+  "BasePath": "_content/AjaxExp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AjaxExp\\wwwroot",
+      "Source": "AjaxExp",
+      "ContentRoot": "C:\\Users\\Eric\\source\\repos\\AjaxExp\\AjaxExp\\wwwroot\\",
+      "BasePath": "_content/AjaxExp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Eric\\source\\repos\\AjaxExp\\AjaxExp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AjaxExp.styles.css",
+      "SourceId": "AjaxExp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Eric\\source\\repos\\AjaxExp\\AjaxExp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/AjaxExp",
+      "RelativePath": "AjaxExp.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Eric\\source\\repos\\AjaxExp\\AjaxExp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AjaxExp.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Eric\\source\\repos\\AjaxExp\\AjaxExp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AjaxExp.bundle.scp.css",
+      "SourceId": "AjaxExp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Eric\\source\\repos\\AjaxExp\\AjaxExp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/AjaxExp",
+      "RelativePath": "AjaxExp.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Eric\\source\\repos\\AjaxExp\\AjaxExp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AjaxExp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Eric\\source\\repos\\AjaxExp\\AjaxExp\\wwwroot\\css\\site.css",
+      "SourceId": "AjaxExp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eric\\source\\repos\\AjaxExp\\AjaxExp\\wwwroot\\",
+      "BasePath": "_content/AjaxExp",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ]
+}

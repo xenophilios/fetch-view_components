@@ -1,0 +1,28 @@
+﻿@model Box
+
+@if (Model is not null)
+{
+    // Views/Shared/Components/Details
+
+    <div><table>
+    <tbody>
+
+    @foreach (PropertyInfo pi in
+                Model
+                .GetType()
+                .GetProperties()
+                .Where(i => i.CanRead)
+                .Where(i => i.CanWrite))
+    {
+        <tr>
+            <td scope="row">@pi.Name</td>
+            <td>@pi.GetValue(Model)</td>
+        </tr>
+    }
+
+    </tbody>
+    <tfoot>
+        <tr><td colspan="2">@DateTime.Now</td></tr>
+    </tfoot>
+    </table></div>
+}

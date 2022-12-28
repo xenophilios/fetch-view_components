@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Eric\\source\\repos\\AjaxExp\\AjaxExp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AjaxExp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AjaxExp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Eric\\source\\repos\\AjaxExp\\AjaxExp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AjaxExp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.AjaxExp.props",
+      "PackagePath": "build\\AjaxExp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.AjaxExp.props",
+      "PackagePath": "buildMultiTargeting\\AjaxExp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.AjaxExp.props",
+      "PackagePath": "buildTransitive\\AjaxExp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

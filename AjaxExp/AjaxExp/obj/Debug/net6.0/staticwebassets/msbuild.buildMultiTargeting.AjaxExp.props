@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AjaxExp.props" />
+</Project>

@@ -1,0 +1,87 @@
+﻿@model List<Box>
+
+@if (Model is not null &&
+     Model.Any())
+{
+    @section A {
+        <div class="flexh">
+        <div><table><tbody>
+            @foreach (Box b in Model)
+            {
+                string boxName = b.BoxName;
+
+                <tr>
+                    <td>@boxName</td>
+                    <td>
+                        <button
+                            type="button"
+                            onclick="Details(document.URL, '@boxName');">
+                            Details
+                        </button>
+                    </td>
+                </tr>
+            }
+            <tr><td colspan="2">@DateTime.Now</td></tr>
+        </tbody></table></div>
+
+        <div><vc:details id="details"></vc:details></div>
+        </div>
+    }
+
+    @section B {
+        <div class="flexh">
+
+        @foreach (Box b in Model)
+        {
+            <div><vc:details dto="@b"></vc:details></div>
+        }
+
+        </div>
+    }
+
+    @section C {
+
+        <script>
+
+        function Details(url, boxName) {
+
+            if (url && boxName) {
+
+                url = new URL(url).origin + `/api/Home/${boxName}`;
+
+                fetch(url)
+                    .then(response => response.json)
+                    .then(data => ProcessData(data))
+                    .catch(error => console.error(error));
+            }
+        }
+
+        function ProcessData(data) {
+
+            /*
+                This is the function with which
+                help is requested.
+            */
+
+           if (data) {
+               
+                let s = JSON.stringify(data); // -> "undefined"
+                console.log(s); // for debugging
+                alert(s); // for debugging
+
+                let vc = document.getElementById("details");
+
+                /*
+                    Want to initialize <vc:details id="details"></vc:details> here.
+                    <data> should be a <box> in JSON format, but this seems not
+                    to be the case.
+                */
+           }
+           else {
+               alert("No data received"); // for debugging
+           }
+        }
+
+        </script>
+    }
+}
